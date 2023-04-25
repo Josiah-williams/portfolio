@@ -16,18 +16,22 @@ nav{
 }
 @media(max-width:500px){
     .heading h4{
-    position: absolute;
-    font-size: 80px;
-    left: 40px;
-    top: 20px;
+    position: relative;
+    font-size: 103px;
+    left: 142px;
+
     }
 }
 .icon-links{
     display: flex;
     justify-content: space-evenly;
     width: 10%;
-   
 }
+/* @media(max-width:500px){
+    .icon-links{
+        margin-top: 50px;
+    }
+} */
 a{
     text-decoration: none;
     font-size: 15px;
@@ -60,9 +64,9 @@ li{
 }
 @media(max-width:500px){
     .layer2{position: relative;
-    top: 1409px;
+    top: 1197px;
     width: 378%;
-    left: 11px;
+    left: 64px;
     text-align: center;
 }
 
@@ -80,7 +84,7 @@ p{font-size:17px}
 @media(max-width:500px){
     .imgme{
     position: relative;
-    bottom: 892px;
+    bottom: 1154px;
     left: 433px;
     }
 }
@@ -126,35 +130,30 @@ u{
     .skills-section{
         display: block;
         text-align: center;
-        margin-left: 647px;
+        margin-left: 466px;
+        width: 200%;
     }
 
-.skills-section, .html p{
-    margin-top: -26px;
-}
-.skills-section, .css p{
-    margin-top: -26px;
-}
-.skills-section, .others p{
-    margin-top: -26px;
-}
-    .skills-section, .html h3{
-        font-size: 66px;
+.skills-section, .html h3{
+        font-size: 165px;
     }
     .skills-section, .html p{
-        font-size: 18px;
+        font-size: 75px;
+         margin-top: -84px;
     }
     .skills-section, .css h3{
-        font-size: 66px;
+        font-size: 165px;
     }
     .skills-section, .css p{
-        font-size: 18px;
+        font-size: 66px;
+        margin-top: -84px;
     }
     .skills-section, .others h3{
-        font-size: 66px;
+        font-size: 165px;
     }
     .skills-section, .others p{
-        font-size: 18px;
+        font-size: 89px;
+        margin-top: -84px;
     }
 }
 h3{
@@ -171,6 +170,11 @@ h3{
 .html{
     text-transform: uppercase;
 }
+@media(max-width:500px){
+    .html{
+        width: 100%;
+    }
+}
 .javascript{
     margin-right: -60px;
 }
@@ -183,7 +187,7 @@ h3{
 }
 @media(max-width:500px){
     .projects{
-    width: 328%;
+    width: 358%;
     margin-left: 97px;
     margin-top: 412px;
 }
@@ -223,7 +227,7 @@ h1{
 @media(max-width:500px){
     .images{
     margin-bottom: 192px;
-     width: 481%;
+     width: 533%;
     height: 960px;
     margin-left: -366px;
     margin-bottom: 420px
@@ -247,8 +251,9 @@ h1{
     margin-top: 50px;
 }
 @media(max-width:500px){
-      .color-container{
-        width: 186%;
+    .color-container{
+    width: 408%;
+    height: 1942px;
     }
 }
 #contact-container{
@@ -266,19 +271,16 @@ h1{
     /* .color-container{
         width: 186%;
     } */
-    .contact-form{
-        margin-left: -145px;
-        height: 50px;
-    }
     .contact h4{
-        font-size: 50px;
+        margin-left: 313px;
+        font-size: 84px;
         text-align: center;
     }
     .contact p{
-        font-size: 28px;
+        font-size: 70px;
         text-align: center;
         width: 219%;
-        margin-left: -234px;
+        margin-left: -361px;
     }
     .contact-form-control{
         width: 50%;
@@ -288,6 +290,12 @@ h1{
 .contact-form{
     height: 40px;
     margin-top: 50px;
+}
+@media(max-width:500px){
+    .contact-form{
+        margin-left: -128px;
+        height: 50px; 
+    }
 }
 .contact-form-group {
   margin-bottom: 15px;
@@ -307,6 +315,13 @@ h1{
   outline: none;
   transition: border-color .2s;
 }
+@media(max-width:500px){
+    .contact-form-control{
+        width: 126%;
+        font-size: 60px;
+        padding: 69px 88px;
+    }
+}
 .contact-form-control::placeholder {
   color: #f3f0f0;
 }
@@ -314,6 +329,12 @@ h1{
   margin-bottom: 0;
   position: relative;
   left: 245px;
+}
+@media(max-width:500px){
+.contact-form-group.buttons{
+    left: 996px;
+    margin-top: 86px
+}
 }
 .contact-form-button {
   background: none;
@@ -323,11 +344,38 @@ h1{
   cursor: pointer;
   outline: none;
 }
+@media(max-width:500px){
+.contact-form-button{
+    font-size:60px
+    }
+}
+.footer h4{
+    position: relative;
+    font-size: 20px;
+    right: 129px;
+}
+@media(max-width:500px){
+.footer h4{
+    position: relative;
+    font-size: 84px;
+    left: 294px;
+    top: 692px;
+}
+footer{
+    font-size: 60px;
+    margin-top: 620px
+}
+}
+
 footer{
     text-align: center;
 }
+
 @media(max-width:500px){
     .project1, h2, p{
         font-size: 50px;
+    }
+    .contact h4{
+        text-align: center;
     }
 }
